@@ -1,0 +1,1 @@
+$('.works-slider').slick();

@@ -1,0 +1,101 @@
+.work{
+    width: 100%;
+    height: auto;
+}
+.work-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.shw-works{
+    width: 100%;
+    height: 500px;
+    background: url(../images/Backgrounds/WORK.png);
+    background-size: 100% 100%;
+}
+.works-slider{
+    width: 100%;
+    height: 270px;
+    position: relative;
+}
+.slide-block{
+    width: 100%;
+    height: 270px;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide-block-photo{
+    max-width: 210px;
+    width: 100%;
+    height: 210px;
+}
+.slide-block-photo img{
+    width: 100%;
+    height: 100%;
+}
+.slide-block-text{
+    max-width: 767px;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sbt-main{
+    color: #999999;
+    font-family: Roboto-light;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.sbt-sm{
+    color: #333333;
+    font-family: Kauscriptshan;
+    font-size: 24px;
+    font-weight: 400;
+}
+.for-input{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 25px;
+}
+.for-info{
+    height: 230px;
+    width: 100%;
+}
+.get-post{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#lblps{
+    color: #000000;
+    font-family: Kauscriptshan;
+    font-size: 24px;
+    font-weight: 400;
+}
+#inptut{
+    width: 190px;
+    height: 25px;;
+    border: 1px solid #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 20px;
+}
+#btnforps{
+    width: 100px;
+    height: 35px;;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background-color: #f9b62f;
+}

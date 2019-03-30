@@ -1,0 +1,40 @@
+.facts{
+    width: 100%;
+    height: 270px;
+}
+.facontent{
+    background-color: #95e1d3;
+    width: 100%;
+    height: 270px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.infoaboutpeople{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.in_ab_pe{
+    max-width: 240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.peopnum{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+}
+.peoptext{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,72 @@
+.services{
+    width: 100%;
+    height: 660px;
+}
+.sercontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#www{
+    color: #3333333;
+    font-family: Kaushanscript;
+    font-size: 24px;
+    font-weight: 400;
+}
+#as{
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.servicesblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 240px;
+}
+.topblock, .bottomblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+.top-botblock{
+    max-width: 330px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.rightitem{
+    max-width: 290px;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.imgitem{
+    max-width: 32px;
+    width: 100%;
+    height: 100%;
+}
+.imgitem>img{
+    width: 32px;
+    height: 32px;
+}
+.ln{
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+.m-t{
+    color: #999999;
+    font-family: Roboto-regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
