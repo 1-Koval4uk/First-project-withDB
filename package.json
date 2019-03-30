@@ -1,0 +1,24 @@
+{
+  "name": "model3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "start "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1-Koval4uk/Model3.git"
+  },
+  "author": "Koval4uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1-Koval4uk/Model3/issues"
+  },
+  "homepage": "https://github.com/1-Koval4uk/Model3#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2"
+  }
+}
