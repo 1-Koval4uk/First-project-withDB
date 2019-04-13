@@ -4,7 +4,7 @@ const MongoClient = require("mongodb").MongoClient;
 const app = express();
 
 const url = "mongodb://localhost:27017/";
-const MongoClient = new MongoClient(url, { useNewUrlParser: true });
+const db2 = new MongoClient(url, { useNewUrlParser: true });
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 
@@ -22,30 +22,25 @@ app.get("/", urlencodedParser, function (req, res) {
 
 app.post("/index", urlencodedParser, function (req, res){
      if(!req.body) return res.status(400);
-     console.log(req.body);
-     var users = req.body;
+     
 
      db2.connect(function(err, client){
        const db = client.db('test');
        const collection = db.collection('users');
-            collection.insertOne(users, function(err, results){
-
+            collection.insertOne(req.body, function(err, results){
               if(err){
                 return console.log(err);
               }
-              console.log(result.ops);
-              //res.send(users);
+              res.status(200).send(req.body.userText);
+              console.log(req.body);
               client.close()
             });
-    console.log(users)
       });
-    res.send(`$(req.body.userText)`);
 });
 
-res.send(`$(req.body.userText)`);
 
 
-
+app.listen(80);
 
 
 
@@ -60,8 +55,3 @@ res.send(`$(req.body.userText)`);
 //     console.log(finend);
 //     res.send(`${req.body.userText}`);
 // });
-  
-
-app.listen(3000);
-
-

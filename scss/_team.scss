@@ -32,6 +32,24 @@
     width: 100%;
     height: 470px;
 }
+#tm-ph1{
+    background-image: url(../images/team-gallery/Layer_16.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#tm-ph2{
+    background-image: url(../images/team-gallery/Layer_18.png);
+}
+#tm-ph3{
+    background-image: url(../images/team-gallery/Layer_19.png);
+}
+#tm-ph1:hover{
+    background-image: url(../images/team-gallery/2-layers.png);
+    transition: 0.15s;
+}
+
 .tm-nm{
     color: #333333;
     font-family: Montserrat;
