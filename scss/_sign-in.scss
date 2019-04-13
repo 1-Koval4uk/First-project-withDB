@@ -1,0 +1,59 @@
+.signin{
+    width: 100%;
+    height: 250px;
+}
+.sig-content{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.for-input{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 25px;
+}
+.for-info{
+    height: 230px;
+    width: 100%;
+}
+.get-post{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#lblps{
+    color: #000000;
+    font-family: Kauscriptshan;
+    font-size: 24px;
+    font-weight: 400;
+}
+#inptut{
+    width: 190px;
+    height: 25px;;
+    border: 1px solid #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 20px;
+}
+#inptat{
+    width: 190px;
+    height: 25px;;
+    border: 1px solid #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 20px;
+}
+#btnforps{
+    width: 100px;
+    height: 35px;;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background-color: #f9b62f;
+}

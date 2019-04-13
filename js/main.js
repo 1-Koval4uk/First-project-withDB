@@ -1,5 +1,3 @@
-import { NONAME } from "dns";
-
 $('.works-slider').slick();
 
 $('#btnforps').click(function(e){
@@ -12,13 +10,10 @@ $('#btnforps').click(function(e){
         url: "/index",
         data: str,
         success: function(msg){
-          alert( "Прибыли данные: " + msg );
+          alert( "Wait for call please:)" );
         },
         fail: function(msg){
             alert("error "+ msg)
         }
       });
-})
-$('.learn-more').mouseenter(function(){
-  display:none;
 })
