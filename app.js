@@ -31,7 +31,7 @@ app.post("/index", urlencodedParser, function (req, res){
               if(err){
                 return console.log(err);
               }
-              res.status(200).send(req.body.userText);
+              res.status(200).send(req.body);
               console.log(req.body);
               client.close()
             });

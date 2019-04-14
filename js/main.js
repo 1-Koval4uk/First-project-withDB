@@ -4,7 +4,8 @@ $('#btnforps').click(function(e){
     e.preventDefault();
     var str ={};
     str[$('#inptut').attr('name')] = $('#inptut').val();
-    
+    str[$('#inptat').attr('name')] = $('#inptat').val();
+
     $.ajax({
         type: "POST",
         url: "/index",
